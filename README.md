@@ -48,4 +48,20 @@ The key features are:
 - Automatic interactive API documentation, including 2 alternative user interfaces:
     - Swagger UI.
     - ReDoc.
-
+- Security and Authentication
+    - HTTP Basic
+    - OAuth2 (also with JWT Tokens)
+    - API keys in:
+        - Headers
+        - Query parameters
+        - Cookies
+- Dependency injection:
+    - Even dependencies can have dependencies, creating a hierarchy or "graph" of dependencies.
+    - All automatically handled by the framework.
+    - All the dependencies can require data from requests and augment the path operation constraints and automatic documentation.
+    - Automatic validation even for path operation parameters defined in dependencies.
+    - Support for complex user authentication systems, database connections, etc.
+    - No compromise with databases, frontends, etc. But easy integration with all of them.
+- Unlimited "plug-ins"
+- Starlette features
+- Pydantic features
