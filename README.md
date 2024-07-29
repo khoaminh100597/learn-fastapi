@@ -2,7 +2,7 @@
 
 - This repository is used to learn fast api by its documentation
 
-# [Introduction](fastapi.tiangolo.com)
+# [Introduction](https://fastapi.tiangolo.com/features/)
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints.
 
